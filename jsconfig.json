@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./uikit",
+        "paths": {
+            "uikit-util": ["src/js/util"]
+        }
+    },
+    "exclude": ["node_modules"]
+}

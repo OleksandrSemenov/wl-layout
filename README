@@ -1,0 +1,16 @@
+Preparation:
+    Install pnpm (npm install -g pnpm)
+
+Working:
+    # Run once to install all dependencies
+    pnpm install
+
+    # Compile all source files
+    pnpm compile
+
+    # Watch files and compile automatically everytime a file changes
+    pnpm watch
+
+Copy the new version to the public folder
+    cp -R uikit/dist/js public/javascripts/v2/uikit
+    cp -R uikit/dist/css public/stylesheets/v2/uikit
